@@ -15,6 +15,17 @@ install_brew() {
     sudo gem install colorls
 }
 
+install_npm() {
+    if ! command -v "npm" &> /dev/null; then
+        printf "NPM not found, aborting."
+    fi
+
+    printf "Installing NPM packages..."
+    npm -i -g eslint
+    npm -i -g prettyjson
+    npm -i -g npm-check
+}
+
 create_dirs() {
     declare -a dirs=(
         "$HOME/Downloads/torrents"
@@ -51,6 +62,9 @@ main() {
 
     printf "🍺  Installing Homebrew packages\n"
     install_brew
+
+    printf "Installing global NPM packages\n"
+    install_npm
 
     printf "💻  Set macOS preferences\n"
     ./macos/.macos

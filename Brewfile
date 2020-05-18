@@ -58,6 +58,9 @@ brew "rabbitmq"
 brew "nvm"
 brew "heroku"
 brew "heroku-node"
+brew "httpie"
+brew "mas"
+brew "nmap"
 
 cask "1password"
 cask "alacritty"
@@ -70,5 +73,8 @@ cask "google-chrome"
 cask "lulu"
 cask "slack"
 cask "visual-studio-code"
+cask "docker"
+cask "iterm2"
+
 
 mas "1Password", id: 1333542190
