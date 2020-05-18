@@ -17,9 +17,9 @@ Dotfiles for my Macbook Pro 15,1 running macOS Catalina 10.15.
 
 To install:
 
-`curl -L https://git.io/JeA7g | sh`
+`curl -L https://git.io/JfEWo | sh`
 
-This expands to [run.sh](https://github.com/gretzky/dotfiles/blob/master/run.sh) which will fetch this repo and run the install script.
+This expands to [run.sh](https://github.com/remotevision/dotfiles/blob/master/run.sh) which will fetch this repo and run the install script.
 
 ## File overview
 
@@ -46,7 +46,7 @@ The install script will also setup a better Python environment with [pyenv](http
 
 ### Customization
 
--   The ['highlight color'](https://github.com/gretzky/dotfiles/blob/ad8580a0898c416528cc44e451cc36044d4c299a/macos/.macos#L22-L23) (accent color for mac, typically blue) is set to pink. To set it to a different color:
+-   The ['highlight color'](https://github.com/remotevision/dotfiles/blob/ad8580a0898c416528cc44e451cc36044d4c299a/macos/.macos#L22-L23) (accent color for mac, typically blue) is set to pink. To set it to a different color:
     -   Pick your desired color and get its RGB value (ex. pink is `255,105,180`)
     -   Take each value and divide it by 255 (ex. pink is now `1, 0.41176470588, 0.70588235294`)
     -   Put them into RGB order (ex. pink is `"1 0.41176470588 0.70588235294"`)
@@ -56,3 +56,4 @@ The install script will also setup a better Python environment with [pyenv](http
 -   [huyvohcmc/dotfiles](https://github.com/huyvohcmc/dotfiles)
 -   [alrra/dotfiles](https://github.com/alrra/dotfiles)
 -   [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
+-   [gretzky/dotfiles](https://github.com/gretzky/dotfiles)

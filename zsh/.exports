@@ -42,11 +42,6 @@ export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --smart-case --glob "!.
 # depot tools
 export PATH=$PATH:$HOME/depot_tools
 
-# android
-export ANDROID_SDK_ROOT=/Users/sara/Library/Android/sdk
-export PATH=$ANDROID_SDK_ROOT/emulator:$ANDROID_SDK_ROOT/emulator:$PATH
-export PATH=$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/tools:$PATH
-
 # ripgrep
 export RIPGREP_CONFIG_PATH=$HOME/.rgrc
 

@@ -53,7 +53,7 @@ main() {
     install_brew
 
     printf "💻  Set macOS preferences\n"
-    ./macos/.macos 
+    ./macos/.macos
 
     printf "🐍  Set Python to 3.7\n"
     # setup pyenv / global python to 3.7.x
@@ -64,10 +64,6 @@ main() {
 
     printf "🌈  Installing colorls\n"
     sudo gem install colorls >/dev/null
-
-    printf "👽  Installing vim-plug\n"
-    curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-    	https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
     printf "🐗  Stow dotfiles\n"
     stow alacritty colorls fzf git nvim skhd starship tmux vim yabai z zsh

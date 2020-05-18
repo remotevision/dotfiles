@@ -1,6 +1,6 @@
 {
     "vscode_custom_css.imports": [
-        "file:///Users/sara/dotfiles/vscode/noicons.css"
+        "file:///Users/rkelly/dotfiles/vscode/noicons.css"
     ],
     "vscode_custom_css.policy": true,
     "breadcrumbs.symbolPath": "off",
