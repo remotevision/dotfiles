@@ -21,9 +21,9 @@ install_npm() {
     fi
 
     printf "Installing NPM packages..."
-    npm -i -g eslint
-    npm -i -g prettyjson
-    npm -i -g npm-check
+    npm i -g eslint
+    npm i -g prettyjson
+    npm i -g npm-check
 }
 
 create_dirs() {
