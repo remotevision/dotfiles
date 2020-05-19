@@ -70,11 +70,8 @@ cask "firefox"
 cask "font-hack"
 cask "font-hack-nerd-font"
 cask "google-chrome"
-cask "lulu"
 cask "slack"
 cask "visual-studio-code"
 cask "docker"
-cask "iterm2"
-
 
 mas "1Password", id: 1333542190
